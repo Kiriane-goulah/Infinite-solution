@@ -1,55 +1,47 @@
 /*entete*/
-nav{
-    
+header{
+    width: 100%;
+    height: 91px;
+    position: relative;
     display: flex;
-    gap: 60px 200px;
-    height: 50PX;
+    justify-content: space-around;
+    align-items: center; 
 }
-.nav1{
-    display: flex;
-    gap: 5px;
-    padding: 0px 50px 10px 30px;
-}
-button{
+.contact-boutton{
     width: Hug (180px)px;
     height: Fixed (56.38px)px;
-    padding: 14px 24px 10px 24px;
-    gap: 10px;
+    margin-right: 4%;
+    padding: 14px 20px 14px 20px;
     border-radius: 4px;
     background: linear-gradient(256.45deg, #05A52E 5.81%, #05972A 87.98%);
-    margin: auto;
-}
-button a{
     text-decoration: none;
     color: #F2F2F2;
 }
-.entente a{
+nav a{
      text-decoration: none;
     color: #000000;
-    width: 880px;
-    height: 91px;
-    gap: 0px;
-    opacity: 0px;
+    padding: 34px 10px;
 }
-nav ul li{
-display:inline-block;
-padding: 0px 0px 0px 50px;
-text-align: center;
+nav{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
 }
 .logo1{
     width: 80.76px;
     height: 33.63px;
-    top: 27.7px;
-    left: 100px;
-    padding: 0px 5px 5px 3.44px;
-    margin:  5px 10px 0px 110px; 
-    gap: 0px;
+    margin-left: 120px;
 /*main*/
 }
 .texte3{
-    font-family: Neometric;
+    color: #0210334A;
     font-size: 100px;
-    font-weight: 600;
+    font-weight: 600px;
     line-height: 113.52px;
     letter-spacing: 0.02em;
     text-align: left;
@@ -59,127 +51,74 @@ text-align: center;
     height: 69px;
     top: 329px;
     left: 834px;
-    font-family: Neometric;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 23.4px;
     letter-spacing: 0.02em;
     text-align: left;
     }
 .main-header {
-    margin: 0px 0px 0px 187px; 
+    margin: 50px 0px 0px 187px; 
     height: 228px;
     padding: 0;   
 }
  .main-header li{
     display: inline-block;
     align-items: center;
-} 
-main{
+    
+}
+body{
+    font-family: 'Neometric', sans-serif;
+    font-family: 'Neometric Alt', sans-serif;
+    font-style: normal;
     background: #F8F5F5;
-    padding: 180px 0px 180px 0px;
 }
 .contener1{
     display: flex;
-    margin: 90px 191px 2px 191px;
-}
-.contener2{
-    display: flex;
-    margin: 0px 0px 0px 191px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:80px 230px 100px 230px;
+    gap: 50px;
 }
 .texte5{
-    font-family: Neometric;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 14.76px;
     letter-spacing: 0.02em;
     text-align: left;
     width: 340px;
     height: 59px;
-    gap: 0px;
-    opacity: 0px;
     color: #828282;
 }
 .texte6{
-    font-family: Neometric;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 600px;
     line-height: 27.24px;
     letter-spacing: 0.02em;
-    text-align: left;
     width: 238px;
     height: 27px;
 }
-.webdev{
-    width: 420px;
-    height: 297px;
-    padding: 30px 40px 0px 40px;
-    gap: 0px;
+.webdev , .appdev , .graphicdesign, .uidesign{
+    Width :Hug (420px);
+    Height :Hug (297px);
+    padding: 30px 40px 30px 40px;
     border-radius: 8px ;
     background: #FEFCFC;
-    margin: 30px 30px 20px 0px;
-    font-family: Neometric;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 600px;
     line-height: 27.24px;
     letter-spacing: 0.02em;
     text-align: left;
-}
-.appdev{
-    width: 420px;
-    height: 297px;
-    background: #FEFCFC;
-    border-radius: 8px;
-    gap: 0px;
-    padding: 30px 40px 0px 40px;
-    margin: 30px;
-    font-family: Neometric;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 27.24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
-.graphicdesign{
-    width: 420px;
-    height: 297px;
-    padding: 30px 40px 0px 33px;
-    gap: 0px;
-    border-radius: 8px;
-    background: #FEFCFC; 
-    margin: 30px 30px 30px 0px; 
-    font-family: Neometric;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 27.24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
-.uidesign{
-    width: 420px;
-    height: 297px;
-    padding: 30px 40px 0px 35px;
-    gap: 0px;
-    border-radius: 8px;
-    margin: 30px;
-    background: #FEFCFC; 
-    font-family: Neometric;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 27.24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
+} 
 .Check button{
-    width: 132px;
-height: 35px;
-padding: 14px 14px 30px 20px;
+    width: Hug (132px);
+    height: Hug (45px);
+padding: 14px 20px 14px 20px;
 gap: 10px;
 border-radius: 4px;
 background: #27AE60;
 }
 .Check a button{
-    font-family: Neometric;
     font-size: 14px;
     font-weight: 600;
     line-height: 17.22px;
@@ -188,40 +127,33 @@ background: #27AE60;
     text-decoration: none;
     color: #FFFFFF;
 }
-.texte3{
-    color: #0210334A;
-    font-family: Neometric;
-    font-size: 100px;
-    font-weight: 600;
-    line-height: 113.52px;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
 /*pied de page*/
 
 footer{
     background-color: #021033;
 }
  .premier{
-    width: 73%;
+    width: 70%;
+    height: 450px;
     display: flex;
+    flex-wrap: wrap;
     padding: 0px;
     align-items: center;
     margin: auto;
+    margin-top: 30px;
     justify-content: space-around;
 } 
 .first-premier{
-    width: 399px; 
-    height: 286px;
+    width: 313px; 
+    height: 146px;
     padding: 20px 0px 0px 0px;
-    margin-top: 10px;
+    margin-top: -110px;
 }
 .first-premier img{
     margin-bottom: 20px;
 }
 .first-premier P{
     margin: 0px;
-    font-family: Neometric;
     font-size: 15px;
     line-height: 21.68px;
     text-align: left;
@@ -231,18 +163,18 @@ footer{
     height: 100px;
 }
 .secod-premier{
+    position: relative;
     display: flex;
-    width: 656px;
+    /* flex-wrap: wrap; */
+    width: 585px;
     height: 306px;
-    gap: 10px;
-    margin-top: 10px;
 }
 .secod-premier ul li{
     list-style-type: none;
+    margin-bottom: 10px;
 }
 .secod-premier ul a{
     text-decoration: none;
-    font-family: Neometric;
     font-size: 16px;
     font-weight: 400;
     line-height: 23.12px;
@@ -250,7 +182,6 @@ footer{
     color: #F2F2F280;
 }
 .premier h3{
-    font-family: Neometric;
     font-size: 24px;
     font-weight: 500;
     line-height: 34.68px;
@@ -265,6 +196,19 @@ footer{
     display: flex;
     justify-content: space-between;
     color: #FFFFFF80;
-    width: 73%;
+    width: 70%;
     margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .main-header{
+        left: -180;
+        margin: 0px 0px 0px -27px;
+    }
+    .contener1{
+        margin:120px 27px 100px 27px;
+    }
+    footer{
+        height: 1300px;
+    }
 }

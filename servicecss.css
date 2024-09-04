@@ -4,7 +4,7 @@ header{
     height: 91px;
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; 
 }
 .contact-boutton{
@@ -21,17 +21,20 @@ nav a{
      text-decoration: none;
     color: #000000;
     padding: 34px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.12px;
 }
 nav{
     position: relative;
     display:flex;
-    flex-wrap: wrap;
     width: 60%;
     height: 100%;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
 }
+
 .logo1{
     width: 80.76px;
     height: 33.63px;
@@ -58,14 +61,13 @@ nav{
     text-align: left;
     }
 .main-header {
-    margin: 50px 0px 0px 187px; 
+    padding: 60px 0px 0px 240px; 
     height: 228px;
-    padding: 0;   
+   margin: auto;  
 }
  .main-header li{
     display: inline-block;
-    align-items: center;
-    
+    align-items: center;  
 }
 body{
     font-family: 'Neometric', sans-serif;
@@ -76,9 +78,12 @@ body{
 .contener1{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 80%;
-    margin:80px 230px 100px 230px;
+    margin:auto;
     gap: 50px;
+    padding: 100px;
 }
 .texte5{
     font-size: 12px;
@@ -131,29 +136,21 @@ background: #27AE60;
 
 footer{
     background-color: #021033;
+    width: 100%;
 }
  .premier{
-    width: 70%;
+    width: 80%;
     height: 450px;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
-    align-items: center;
+    flex-wrap: nowrap;
     margin: auto;
-    margin-top: 30px;
-    justify-content: space-around;
+    padding: 80px;
+    justify-content: center;
 } 
-.first-premier{
-    width: 313px; 
-    height: 146px;
-    padding: 20px 0px 0px 0px;
-    margin-top: -110px;
-}
-.first-premier img{
+.premier img{
     margin-bottom: 20px;
 }
-.first-premier P{
-    margin: 0px;
+.premier P{
     font-size: 15px;
     line-height: 21.68px;
     text-align: left;
@@ -162,24 +159,18 @@ footer{
     width: 313px;
     height: 100px;
 }
-.secod-premier{
-    position: relative;
-    display: flex;
-    /* flex-wrap: wrap; */
-    width: 585px;
-    height: 306px;
-}
-.secod-premier ul li{
+
+.premier ul li{
     list-style-type: none;
     margin-bottom: 10px;
 }
-.secod-premier ul a{
+.premier ul a{
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
     line-height: 23.12px;
     text-align: left;
-    color: #F2F2F280;
+    color: #F2F2F280;   
 }
 .premier h3{
     font-size: 24px;
@@ -196,19 +187,61 @@ footer{
     display: flex;
     justify-content: space-between;
     color: #FFFFFF80;
-    width: 70%;
-    margin: auto;
+    width: 65%;
+    margin:80px 230px 100px 230px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
+    header{
+        width: 100%;
+        left: -100px;
+        height: 100px;
+    }
+     nav a{
+        font-size: 10px;
+     }
+    .contact-boutton{
+        margin-right: -100px;
+    }
     .main-header{
-        left: -180;
-        margin: 0px 0px 0px -27px;
+        padding: 30px 0px 0px 90px;
     }
     .contener1{
-        margin:120px 27px 100px 27px;
+        width: 90%;
+        margin:auto;
+        padding: 45px;
     }
-    footer{
-        height: 1300px;
+    .premier {
+        width: 80%;
+        height: 600px;
+        padding: 80px 0px 0px 0px;
+    }
+    .premier P{
+        font-size: 13px;
+        line-height: 20px;
+        width: 260px;
+        height: 130px;
+    }
+    .premier img{
+        width: 80px;
+    }
+    .texte3{
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .texte4{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .deuxieme{
+        margin:80px 230px 100px 130px;
+    }
+     footer{
+        width: 100%;
     }
 }
+/* @media all and (min-width: 822px) and (max-width: 1024px){
+    footer{
+        width: 90%;
+    }
+} */
